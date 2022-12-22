@@ -2,6 +2,6 @@
 
 @section('content')
 <main>
-@include('partials.jubo')
+GAMES
 </main>
 @endsection

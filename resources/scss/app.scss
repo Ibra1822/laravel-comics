@@ -1,3 +1,96 @@
-body{
-    background-color: cadetblue;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+.debug{
+    border: 1px solid #000;
+}
+
+// -----------header
+
+.over-header{
+    height: 25px;
+    width: 100%;
+    background-color: #3382F9;
+}
+.cont-over-header{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    color: #fff;
+    margin: auto;
+
+    p{
+     margin-right: 10px;
+     text-transform: uppercase;
+    }
+}
+
+header{
+    height: 110px;
+    width: 100%;
+
+    .cont-header{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        img{
+            height: 85px;
+        }
+       .cont-link{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        input{
+            height: 30px;
+
+        }
+    ul{
+     height: 100%;
+     width: 80%;
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+     li{
+        text-transform: uppercase;
+
+        a{
+            text-decoration: none;
+            color: #4B4C4F;
+            font-weight: bold;
+        }
+     }
+    }
+    }
+    }
+}
+
+// -----------header
+
+// -----------jumbotron
+
+.jumbo{
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: 90% 0%;
+    }
+}
+
+// -----------jumbotron

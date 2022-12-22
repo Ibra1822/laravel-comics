@@ -8,6 +8,10 @@
     <title>Comics</title>
 </head>
 <body>
-<h1>hello</h1>
+
+@include('partials.header')
+
+@yield('content')
+
 </body>
 </html>
