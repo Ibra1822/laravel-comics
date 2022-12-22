@@ -2,6 +2,6 @@
 
 @section('content')
 <main>
-COLLECTIBLES
+    @include('partials.secpage')
 </main>
 @endsection

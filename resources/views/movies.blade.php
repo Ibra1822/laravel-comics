@@ -2,6 +2,6 @@
 
 @section('content')
 <main>
-MOVIES
+@include('partials.cards')
 </main>
 @endsection

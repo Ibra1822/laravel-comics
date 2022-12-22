@@ -2,6 +2,7 @@
 
 @section('content')
 <main>
-SHOP
+    @include('partials.cards')
+
 </main>
 @endsection

@@ -2,6 +2,6 @@
 
 @section('content')
 <main>
-FANS
+    @include('partials.secpage')
 </main>
 @endsection

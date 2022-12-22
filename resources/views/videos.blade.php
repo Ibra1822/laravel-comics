@@ -2,6 +2,6 @@
 
 @section('content')
 <main>
-VIDEOS
+    @include('partials.secpage')
 </main>
 @endsection

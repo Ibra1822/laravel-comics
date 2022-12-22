@@ -2,6 +2,7 @@
 
 @section('content')
 <main>
-COMICS
+@include('partials.cards')
+
 </main>
 @endsection

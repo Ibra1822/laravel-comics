@@ -2,6 +2,6 @@
 
 @section('content')
 <main>
-CHARACTERS
+@include('partials.cards')
 </main>
 @endsection

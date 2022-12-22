@@ -2,6 +2,7 @@
 
 @section('content')
 <main>
-NEWS
+    @include('partials.secpage')
+
 </main>
 @endsection

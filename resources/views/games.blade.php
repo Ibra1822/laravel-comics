@@ -2,6 +2,7 @@
 
 @section('content')
 <main>
-GAMES
+
+    @include('partials.secpage')
 </main>
 @endsection
