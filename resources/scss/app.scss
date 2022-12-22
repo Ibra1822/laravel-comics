@@ -67,7 +67,17 @@ header{
 
         input{
             height: 30px;
-
+            border: none;
+            border-bottom: 3px solid #3382F9;
+            &[type="text"]{
+                text-align: right;
+            }
+            &::placeholder{
+                color: black;
+                opacity: 1;
+                font-size: 1rem;
+                font-family: Arial, Helvetica, sans-serif;
+            }
         }
     ul{
      height: 100%;
