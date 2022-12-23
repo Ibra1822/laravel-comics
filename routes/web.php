@@ -71,3 +71,8 @@ Route::get('/shop', function () {
     return view('shop',compact('cards'));
 })->name('shop');
 
+
+Route::get('/single',function(){
+    return view('single');
+
+});
