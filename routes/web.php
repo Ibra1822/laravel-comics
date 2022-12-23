@@ -72,7 +72,11 @@ Route::get('/shop', function () {
 })->name('shop');
 
 
-Route::get('/single',function(){
-    return view('single');
+Route::get('/single/{id}',function($id) {
+    $single = config('db.cards'); // prendiamo tutti i record
+    $single_filtered = array_filter($single, fn($item) => $item['id'] == $id); // filtriamo i record per id passato nell url
+    $first_key = array_key_first($single_filtered); // prendiamo la prima chiave dell'array filtrato
+    $single_filtered = $single[$first_key];
 
-});
+    return view('single', compact('single_filtered'));
+})->name('single');
